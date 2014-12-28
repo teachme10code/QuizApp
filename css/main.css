@@ -4,15 +4,15 @@
 
 #question {
 	position: fixed;
-	width: 570px;
-	height: 70px;
-	font-family: Lato, Lobster;
-	font-size: 1.9em;
-	text-align: left;
+	width: 600px;
+	height: 75px;
+	font-family: Lato;
+	font-size: 1.4em;
+	font-weight: normal;
 	color: white;
-	margin-left: 650px;
-	margin-top: 90px;
-	margin-bottom: 0px;
+	margin-left: 600px;
+	margin-top: 80px;
+	padding-bottom: 40px;
 }
 
 body, html {
@@ -20,6 +20,11 @@ body, html {
 	height: 960px;
 	margin: 0px;
 	background-color: #800020;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  	-moz-user-select: none;     /* Firefox all */
+  	-ms-user-select: none;      /* IE 10+ */
+  	-o-user-select: none;
+  	user-select: none; 
 }
 
 img {
@@ -27,33 +32,32 @@ img {
 	margin-top: 80px;
 	margin-left: 70px;
 	margin-right: 0px;
+	height: 445px;
+	width: 455px;
 }
 
-/*#big_container {
-	float: right;
-	width: 570px;
-	height: 474px;
-	margin-top: 115px;
-	margin-right: 35px;
-	margin-left: 65px;
-	position: fixed;
-}*/
-
-#form_container2, #form_container3 ,#form_container4 ,#form_container5,#form_container6,#form_container7,#form_container8 {
-	display: none;
+.form_container2,
+.form_container3,
+.form_container4,
+.form_container5,
+.form_container6,
+.form_container7,
+.form_container8 {
+	visibility: hidden;
 	position: fixed;
 	width: 250px;
 	border: 0px;
-	margin-left: 700px;
-	margin-top: 160px;
+	margin-left: 710px;
+	margin-top: 165px;
 }
 
-#form_container1 {
+.form_container1 {
 	position: fixed;
+	visibility: visible;
 	width: 250px;
 	border: 0px;
-	margin-left: 700px;
-	margin-top: 160px;
+	margin-left: 710px;
+	margin-top: 165px;
 }
 
 ul {
@@ -66,9 +70,57 @@ ul {
 
 li {
 	font-family: Lato;
-	font-size: 1.7em;
+	font-size: 1.2em;
 	color: white;
-	line-height: 60px;
+	line-height: 55px;
+}
+
+#submit {
+	position: fixed;
+	width: 150px;
+	height: 50px;
+	margin-left: 713px;
+	margin-top: 425px;
+	border-radius: 5px;
+	border: 3px solid white;
+	color: white;
+	font-family: Lato;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#btnText {
+	position: relative;
+	width: 80px;
+	height: 25px;
+	margin: auto;
+	padding-top: 9%;
+}
+
+#submit:hover {
+	cursor: pointer;
+}
+
+#submit:active {
+	border-color: darkgrey;
+	cursor: pointer;
+	color: darkgrey;
+	width: 157px;
+	height: 52px;
+}
+
+#funFact {
+	position: fixed;
+	margin-top: 530px;
+	margin-left: 600px;
+	width: 600px;
+	height: 115px;
+	color: white;
+	font-family: Lato;
+	font-size: 1.1em;
+	font-weight: normal;
+	text-align: left;
 }
 
 
