@@ -16,6 +16,7 @@
 	<img src="./images/dog.png">
 	<h2 id="questionNumber"></h2>
 	<h1 id="question"></h1>
+	<h1 id="finalResults"></h1>
 	<div class="form_container1">
 		<ul class="list">
 			<li><input type="radio" name="answer" value="wrong"> Golden retriever</li>
@@ -56,7 +57,7 @@
 			<li><input type="radio" name="answer" value="wrong"> Ranidaphobia</li>
 		</ul>
 	</div>
-	<div id="submit" onclick="incrementIndex(); changeAnswerSet(); displayQuestionStuff(); countCorrectAnswers(); displayFunFact()">
+	<div id="submit" onclick="validateForm()">
 		<div id="btnText">Submit</div>
 	</div>
 	<div id="funFact">

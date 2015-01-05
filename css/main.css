@@ -49,6 +49,20 @@ img {
 	width: 455px;
 }
 
+#finalResults {
+	position: fixed;
+	width: 600px;
+	height: 75px;
+	font-family: Lato;
+	font-size: 1.5em;
+	font-weight: normal;
+	color: white;
+	margin-left: 600px;
+	margin-top: 60px;
+	padding-bottom: 40px;
+	visibility: hidden;
+}
+
 .form_container2,
 .form_container3,
 .form_container4,
